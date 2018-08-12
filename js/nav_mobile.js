@@ -10,7 +10,7 @@ var pages = document.querySelectorAll('.portfolio__page')
 
 document.querySelector(".nav__mobile").addEventListener("click", function(e) {
   e.preventDefault();
-  document.querySelector('body').classList.add('no-scroll');
+  document.querySelector('body').classList.toggle('no-scroll');
   line1.classList.toggle("nav__mobile--cross1");
   line2.classList.toggle("nav__mobile--hide");
   line3.classList.toggle("nav__mobile--cross2");
