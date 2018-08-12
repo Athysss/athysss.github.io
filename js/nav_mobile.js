@@ -10,6 +10,7 @@ var pages = document.querySelectorAll('.portfolio__page')
 
 document.querySelector(".nav__mobile").addEventListener("click", function(e) {
   e.preventDefault();
+  document.querySelector('body').classList.add('no-scroll');
   line1.classList.toggle("nav__mobile--cross1");
   line2.classList.toggle("nav__mobile--hide");
   line3.classList.toggle("nav__mobile--cross2");
@@ -21,6 +22,7 @@ document.querySelector(".nav__mobile").addEventListener("click", function(e) {
 var links = document.querySelectorAll(".nav__mobile--menu--link");
 links.forEach(function(link) {
   link.addEventListener("click", function() {
+  document.querySelector('body').classList.remove('no-scroll');
     line1.classList.toggle("nav__mobile--cross1");
     line2.classList.toggle("nav__mobile--hide");
     line3.classList.toggle("nav__mobile--cross2");
