@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 119.303 133.774">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        filter: url(#discord-brands);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="1.336" y1="-0.191" x2="-0.454" y2="1.378" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#93f9b9"/>
+      <stop offset="1" stop-color="#1d976c"/>
+    </linearGradient>
+    <filter id="discord-brands" x="0" y="0" width="119.303" height="133.774" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g class="cls-2" transform="matrix(1, 0, 0, 1, 0, 0)">
+    <path id="discord-brands-2" data-name="discord-brands" class="cls-1" d="M67.207,54.993a5.926,5.926,0,1,1-5.9-6.425A6.167,6.167,0,0,1,67.207,54.993ZM40.174,48.567a6.448,6.448,0,0,0,0,12.851,6.167,6.167,0,0,0,5.9-6.425A6.13,6.13,0,0,0,40.174,48.567ZM101.3,11.925v103.85c-14.584-12.888-9.92-8.622-26.86-24.371l3.068,10.709H11.867A11.9,11.9,0,0,1,0,90.188V11.925A11.9,11.9,0,0,1,11.867,0H89.436A11.9,11.9,0,0,1,101.3,11.925ZM84.8,66.8a77.52,77.52,0,0,0-8.336-33.748C68.133,26.8,60.2,26.975,60.2,26.975l-.81.926c9.841,3.01,14.414,7.352,14.414,7.352a49.186,49.186,0,0,0-43.242-1.679c-2.142.984-3.415,1.679-3.415,1.679s4.8-4.573,15.224-7.583l-.579-.695s-7.931-.174-16.266,6.078A77.52,77.52,0,0,0,17.193,66.8s4.863,8.394,17.656,8.8c0,0,2.142-2.6,3.878-4.8-7.352-2.2-10.13-6.831-10.13-6.831.852.6,2.256,1.369,2.373,1.447a42.2,42.2,0,0,0,36.122,2.026,33.125,33.125,0,0,0,6.657-3.415s-2.894,4.747-10.478,6.889c1.737,2.2,3.821,4.689,3.821,4.689C79.884,75.2,84.8,66.8,84.8,66.8Z" transform="translate(9 6)"/>
+  </g>
+</svg>
