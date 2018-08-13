@@ -139,7 +139,6 @@
     line-height: 2.5rem; }
     @media (max-width: 56.25em) {
       .icon__text {
-        width: 50%;
         margin: 0 auto; } }
 
 .portfolio {
@@ -252,7 +251,7 @@
           content: "languages";
           display: inline-block;
           font-size: 2.8rem;
-          color: #292929;
+          color: #363636;
           position: absolute;
           top: -120%;
           left: 50%;
@@ -276,7 +275,7 @@
           content: "hours";
           display: inline-block;
           font-size: 2.8rem;
-          color: #292929;
+          color: #363636;
           position: absolute;
           top: -120%;
           left: 50%;
@@ -295,7 +294,7 @@
           content: "colors";
           display: inline-block;
           font-size: 2.8rem;
-          color: #292929;
+          color: #363636;
           position: absolute;
           top: -120%;
           left: 50%;
@@ -317,7 +316,7 @@
           content: "client";
           display: inline-block;
           font-size: 2.8rem;
-          color: #292929;
+          color: #363636;
           position: absolute;
           top: -120%;
           left: 50%;
@@ -399,6 +398,10 @@ body {
 
 main {
   position: relative; }
+
+::selection {
+  background: #93f9b9;
+  color: #eeeeee; }
 
 .margin-bottom-small {
   margin-bottom: 3rem; }
@@ -749,7 +752,7 @@ span.info-text {
       background-size: cover;
       background-position: center;
       z-index: 998;
-      transition: background-position 2s, height 2s; }
+      transition: all 2s; }
     .nav__mobile--bg-full {
       height: 100vh;
       opacity: 1; }
@@ -953,11 +956,7 @@ span.info-text {
     text-decoration: none; }
 
 #portfolio {
-  padding: 5rem 15rem;
-  background-image: url(../img/portfolio_bg.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center; }
+  padding: 20rem 15rem; }
   @media (max-width: 56.25em) {
     #portfolio {
       padding: 10rem 10rem; } }
@@ -971,13 +970,17 @@ span.info-text {
   background-size: 30%;
   background-repeat: no-repeat;
   background-position: bottom left; }
+  @media (min-width: 112.5em) {
+    #contact {
+      background-size: 17%; } }
   @media (max-width: 56.25em) {
     #contact {
       padding: 10rem 10rem; } }
   @media (max-width: 37.5em) {
     #contact {
       text-align: center;
-      padding: 10rem 5rem; } }
+      padding: 10rem 5rem;
+      background-image: none; } }
   #contact .contact__content {
     margin: 0 auto;
     display: block;
